@@ -23,4 +23,10 @@ public class Application {
             return new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.basePackage("pe.edu.upeu")).build();
            
         } 
+        
+        //1. Entity
+        //2. Crud-Repository
+        //3. Sevice
+        //4.ServideImpl
+        //5.Controller
 }
