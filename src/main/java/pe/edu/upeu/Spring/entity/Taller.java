@@ -50,10 +50,10 @@ public class Taller implements Serializable{
     @Column(name = "tall_direccion")
     private String tallDireccion;
     
-    //FALTA CREAR TABLA PROGRAMA<<<
-    /*@ManyToOne
+    
+    @ManyToOne
     @JoinColumn(name = "prog_id")
-    private Programa programa;*/
+    private Programa programa;
     
     
 }
